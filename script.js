@@ -15,7 +15,41 @@ const products = [
     full: "images/grandetuca.png",
     thumbWidth: "300px",
     thumbHeight: "300px"
-  }
+  },
+  {
+    name: "ILUSTRATION: Nena Star",
+    price: "200 kr",
+    thumb: "images/pequeno.png",
+    full: "images/grande.png",
+    thumbWidth: "300px",
+    thumbHeight: "300px"
+  },
+
+  {
+    name: "ILUSTRATION: Tucan in Portugal",
+    price: "300 kr",
+    thumb: "images/pequenotuca.png",
+    full: "images/grandetuca.png",
+    thumbWidth: "300px",
+    thumbHeight: "300px"
+  },
+   {
+    name: "ILUSTRATION: Nena Star",
+    price: "200 kr",
+    thumb: "images/pequeno.png",
+    full: "images/grande.png",
+    thumbWidth: "300px",
+    thumbHeight: "300px"
+  },
+
+  {
+    name: "ILUSTRATION: Tucan in Portugal",
+    price: "300 kr",
+    thumb: "images/pequenotuca.png",
+    full: "images/grandetuca.png",
+    thumbWidth: "300px",
+    thumbHeight: "300px"
+  },
 ];
 
 const container = document.getElementById("products");
@@ -40,6 +74,22 @@ products.forEach(product => {
   container.appendChild(card);
 });
 
+
+// create back button dynamically on CSR page
+if (window.location.pathname.endsWith('csr.html')) {
+  const h1 = document.querySelector('h1');
+  if (h1) {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'center';
+    const backLink = document.createElement('a');
+    backLink.href = 'index.html';
+    backLink.className = 'btn';
+    backLink.textContent = 'Back';
+    backLink.alt = 'button back to home';
+    wrapper.appendChild(backLink);
+    h1.after(wrapper);
+  }
+}
 
 // Popup logic
 const popup = document.getElementById("popup");
