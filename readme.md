@@ -20,7 +20,7 @@ This project shows the difference between **Server-Side Rendering (SSR)** and **
 - script.js → JavaScript file to create the CSR content
 
 ## Demo Version
--
+[https://patriciagea.github.io/ssr-csr-rendering](https://patriciagea.github.io/ssr-csr-rendering/)
 
 
 ## How to run
