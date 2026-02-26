@@ -9,7 +9,7 @@ Patricia Gea H Rodrigues - Individual project
 Illustration Shop. 
 This project shows the difference between **Server-Side Rendering (SSR)** and **Client-Side Rendering (CSR)** using only HTML, CSS, and JavaScript.
 
-[![Homepage](images\screenbigsmall.png)](images\screenbig.png)
+[![Homepage](images/screenbigsmall.png)](images/screenbig.png)
 
 
 ## Project structure
